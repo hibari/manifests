@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="git://github.com/hibari/" />
+  <default revision="rebarify"
+           remote="github" />
+
+  <!--
+      Manifests
+  -->
+  <project path="manifests" name="manifests" revision="master">
+    <copyfile src="hibari-rebar.config" dest="rebar.config" />
+  </project>
+
+  <!--
+      Tools
+  -->
+  <project path="cluster-info" name="cluster-info" />
+  <project path="congestion-watcher" name="congestion-watcher" />
+  <project path="gmt-bom" name="gmt-bom" />
+  <project path="gmt-util" name="gmt-util" />
+  <project path="partition-detector" name="partition-detector" />
+
+  <!--
+      UBF
+  -->
+  <project path="ubf" name="ubf" />
+  <project path="ubf-jsonrpc" name="ubf-jsonrpc" />
+  <project path="ubf-thrift" name="ubf-thrift" />
+
+  <!--
+      Hibari
+  -->
+  <project path="gdss-brick" name="gdss-brick" />
+  <project path="gdss-client" name="gdss-client" />
+  <project path="gdss-admin" name="gdss-admin" />
+  <project path="gdss-json-rpc-proto" name="gdss-json-rpc-proto" />
+  <project path="gdss-s3-proto" name="gdss-s3-proto" />
+  <project path="gdss-ubf-proto" name="gdss-ubf-proto" />
+
+  <!--
+      Third party
+  -->
+  <project path="mochiweb" name="mochiweb" />
+
+</manifest>
