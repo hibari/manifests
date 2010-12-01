@@ -47,7 +47,7 @@
       Prototyping
   -->
   <remote  name="github-norton"
-           fetch="git@github.com:norton/" />
+           fetch="git://github.com/norton/" />
   <project path="judy" name="judy" revision="master" remote="github-norton" />
   <project path="judyets" name="judyets" revision="master" remote="github-norton" />
 
