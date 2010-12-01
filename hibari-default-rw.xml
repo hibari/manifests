@@ -8,7 +8,7 @@
   <!--
       Manifests
   -->
-  <project path="manifests" name="manifests" revision="master">
+  <project path="manifests" name="manifests" revision="judify">
     <copyfile src="hibari-rebar.config" dest="rebar.config" />
   </project>
 
