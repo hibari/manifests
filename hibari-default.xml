@@ -9,6 +9,7 @@
       Manifests
   -->
   <project path="manifests" name="manifests" revision="master">
+    <copyfile src="rebar" dest="rebar" />
     <copyfile src="hibari-rebar.config" dest="rebar.config" />
   </project>
 
