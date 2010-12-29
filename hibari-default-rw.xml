@@ -6,7 +6,7 @@
            remote="github" />
 
   <!--
-      Tools
+      Applications - Tools
   -->
   <project path="hibari/lib/cluster_info" name="cluster-info" />
   <project path="hibari/lib/congestion_watcher" name="congestion-watcher" />
@@ -15,14 +15,14 @@
   <project path="hibari/lib/partition_detector" name="partition-detector" />
 
   <!--
-      UBF
+      Applications - UBF
   -->
   <project path="hibari/lib/ubf" name="ubf" />
   <project path="hibari/lib/ubf_jsonrpc" name="ubf-jsonrpc" />
   <project path="hibari/lib/ubf_thrift" name="ubf-thrift" />
 
   <!--
-      Hibari
+      Applications - Hibari
   -->
   <project path="hibari/lib/gdss" name="gdss-brick" />
   <project path="hibari/lib/gdss_client" name="gdss-client" />
@@ -30,11 +30,26 @@
   <project path="hibari/lib/gdss_json_rpc_proto" name="gdss-json-rpc-proto" />
   <project path="hibari/lib/gdss_s3_proto" name="gdss-s3-proto" />
   <project path="hibari/lib/gdss_ubf_proto" name="gdss-ubf-proto" />
+
+  <!--
+      Applications - Third party
+  -->
+  <project path="hibari/lib/mochiweb" name="mochiweb" />
+
+  <!--
+      Releases - Hibari
+  -->
   <project path="hibari" name="hibari" />
 
   <!--
-      Third party
+      Patches - Hibari
   -->
-  <project path="hibari/lib/mochiweb" name="mochiweb" />
+  <project path="patches" name="patches" />
+
+  <!--
+      Documentation - Hibari
+  -->
+  <project path="hibari-doc" name="hibari-doc"
+           revision="new-user-guide" />
 
 </manifest>
