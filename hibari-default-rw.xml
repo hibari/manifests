@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="github"
-           fetch="git@github.com:hibari/" />
-  <default revision="rebarify"
-           remote="github" />
+  <default remote="github" revision="rebarify" />
+  <remote name="github" fetch="git@github.com:hibari/" />
 
   <!--
       Applications - Tools
@@ -42,14 +40,11 @@
   <project path="hibari" name="hibari" />
 
   <!--
-      Patches - Hibari
+      Miscellaneous
   -->
+  <project path="hibari-doc" name="hibari-doc" revision="new-user-guide" />
+  <project path="manifests" name="manifests" />
   <project path="patches" name="patches" />
-
-  <!--
-      Documentation - Hibari
-  -->
-  <project path="hibari-doc" name="hibari-doc"
-           revision="new-user-guide" />
+  <project path="rebar" name="rebar" />
 
 </manifest>
