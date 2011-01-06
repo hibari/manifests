@@ -43,8 +43,8 @@
       Miscellaneous
   -->
   <project path="hibari-doc" name="hibari-doc" revision="new-user-guide" />
-  <project path="manifests" name="manifests" />
+  <project path="manifests" name="manifests" revision="master" />
   <project path="patches" name="patches" />
-  <project path="rebar" name="rebar" />
+  <project path="rebar" name="rebar" revision="master" />
 
 </manifest>
