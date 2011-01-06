@@ -9,7 +9,7 @@
   <project path="hibari/lib/cluster_info" name="cluster-info" />
   <project path="hibari/lib/congestion_watcher" name="congestion-watcher" />
   <project path="hibari/lib/gmt_bom" name="gmt-bom" />
-  <project path="hibari/lib/gmt" name="gmt-util" />
+  <project path="hibari/lib/gmt_util" name="gmt-util" />
   <project path="hibari/lib/partition_detector" name="partition-detector" />
 
   <!--
@@ -22,7 +22,7 @@
   <!--
       Applications - Hibari
   -->
-  <project path="hibari/lib/gdss" name="gdss-brick" />
+  <project path="hibari/lib/gdss_brick" name="gdss-brick" />
   <project path="hibari/lib/gdss_client" name="gdss-client" />
   <project path="hibari/lib/gdss_admin" name="gdss-admin" />
   <project path="hibari/lib/gdss_json_rpc_proto" name="gdss-json-rpc-proto" />
