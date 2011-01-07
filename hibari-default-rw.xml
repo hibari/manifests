@@ -8,7 +8,6 @@
   -->
   <project path="hibari/lib/cluster_info" name="cluster-info" />
   <project path="hibari/lib/congestion_watcher" name="congestion-watcher" />
-  <project path="hibari/lib/gmt_bom" name="gmt-bom" />
   <project path="hibari/lib/gmt_util" name="gmt-util" />
   <project path="hibari/lib/partition_detector" name="partition-detector" />
 
