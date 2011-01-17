@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default remote="github" revision="master" />
+  <remote name="github" fetch="git@github.com:hibari/" />
+
+  <!--
+      Applications - CLUS
+  -->
+  <project path="src/lib/clus" name="clus" />
+
+  <!--
+      Miscellaneous
+  -->
+  <project path="manifests" name="manifests" revision="master" >
+  </project>
+
+</manifest>
