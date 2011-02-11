@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <default remote="github" revision="master" />
-  <remote name="github" fetch="git@github.com:hibari/" />
+  <default remote="origin" revision="master" />
+  <remote name="origin" fetch="git@github.com:hibari/" />
 
   <!--
       Applications - CLUS
@@ -11,7 +11,6 @@
   <!--
       Miscellaneous
   -->
-  <project path="manifests" name="manifests" revision="master" >
-  </project>
+  <project path="manifests" name="manifests" />
 
 </manifest>
