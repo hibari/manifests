@@ -20,6 +20,9 @@ n
   -->
   <project path="hibaribench/lib/gdss_brick" name="gdss-brick" />
   <project path="hibaribench/lib/gdss_client" name="gdss-client" />
+  <project path="hibaribench/lib/gdss_json_rpc_proto" name="gdss-json-rpc-proto" />
+  <project path="hibaribench/lib/gdss_s3_proto" name="gdss-s3-proto" />
+  <project path="hibaribench/lib/gdss_ubf_proto" name="gdss-ubf-proto" />
 
   <!--
       Applications - Third party
