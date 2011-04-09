@@ -5,6 +5,7 @@
   <!--
       Applications - Tools
   -->
+  <project path="hibaribench/lib/cluster_info" name="cluster-info" />
   <project path="hibaribench/lib/gmt_util" name="gmt-util" />
 
   <!--
