@@ -33,6 +33,7 @@
   -->
   <project path="hibari/lib/meck" name="meck" />
   <project path="hibari/lib/mochiweb" name="mochiweb" />
+  <project path="hibari/lib/riak_err" name="riak_err" />
 
   <!--
       Releases - Hibari
