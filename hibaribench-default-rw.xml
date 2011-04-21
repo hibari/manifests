@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <default remote="origin" revision="master" />
+  <default remote="origin" revision="dev" />
   <remote name="origin" fetch="git@github.com:hibari/" />
 n
   <!--
@@ -34,6 +34,7 @@ n
   <project path="hibaribench/lib/meck" name="meck" />
   <project path="hibaribench/lib/mochiweb" name="mochiweb" />
   <project path="hibaribench/lib/protobuffs" name="erlang_protobuffs" />
+  <project path="hibaribench/lib/riak_err" name="riak_err" />
   <project path="hibaribench/lib/riakc" name="riak-erlang-client" />
   <project path="hibaribench/lib/stats" name="stats" />
 
