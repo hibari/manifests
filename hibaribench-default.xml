@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <default remote="origin" revision="dev" />
-  <remote name="origin" fetch="git://github.com/hibari/" />
+  <remote name="origin" fetch="git@maguro.geminimobile.com:hibari/" />
+
   <!--
       Applications - Tools
   -->
