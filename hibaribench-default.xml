@@ -29,7 +29,6 @@
       Applications - Third party
   -->
   <project path="hibaribench/lib/basho_bench" name="basho_bench" />
-  <project path="hibaribench/lib/casbench" name="casbench" />
   <project path="hibaribench/lib/ibrowse" name="ibrowse" />
   <project path="hibaribench/lib/meck" name="meck" />
   <project path="hibaribench/lib/mochiweb" name="mochiweb" />
