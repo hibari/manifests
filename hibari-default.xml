@@ -19,6 +19,11 @@
   <project path="hibari/lib/ubf_thrift" name="ubf-thrift" />
 
   <!--
+      Applications - S3
+  -->
+  <project path="hibari/lib/s3" name="s3" />
+
+  <!--
       Applications - Hibari
   -->
   <project path="hibari/lib/gdss_brick" name="gdss-brick" />
