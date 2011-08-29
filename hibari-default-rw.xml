@@ -49,8 +49,6 @@
       Miscellaneous
   -->
   <project path="hibari-doc" name="hibari-doc" />
-  <project path="manifests" name="manifests" />
   <project path="patches" name="patches" />
-  <project path="rebar" name="rebar" />
 
 </manifest>
