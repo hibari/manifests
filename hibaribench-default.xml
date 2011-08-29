@@ -46,7 +46,5 @@
   <!--
       Miscellaneous
   -->
-  <project path="manifests" name="manifests" />
-  <project path="rebar" name="rebar" />
 
 </manifest>
