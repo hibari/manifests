@@ -3,10 +3,10 @@
 
 This is the repository to store Repo manifests for Hibari. Repo is a
 repository management tool and used by Hibari developers to manage
-multiple Git repositories for Hibari distributed key-value store.
+multiple Git repositories.
 
 
-# What is Repo
+# What is Repo?
 
 [Version Control with Repo and Git](http://source.android.com/source/version-control.html)
 
@@ -37,7 +37,7 @@ Please read Downloading Hibari section of Hibari Application Developer Guide.
 
 - **gdss_client**
 - **gdss_brick**
-- a few more (*TODO*)
+- a few more **TODO**
 
 
 ## Hibari UBF and Thrift
