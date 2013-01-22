@@ -15,7 +15,6 @@
       Applications - UBF
   -->
   <project path="hibari/lib/ubf" name="ubf" />
-  <project path="hibari/lib/ubf_jsonrpc" name="ubf-jsonrpc" />
   <project path="hibari/lib/ubf_thrift" name="ubf-thrift" />
 
   <!--
@@ -29,15 +28,14 @@
   <project path="hibari/lib/gdss_brick" name="gdss-brick" />
   <project path="hibari/lib/gdss_client" name="gdss-client" />
   <project path="hibari/lib/gdss_admin" name="gdss-admin" />
-  <project path="hibari/lib/gdss_json_rpc_proto" name="gdss-json-rpc-proto" />
-  <project path="hibari/lib/gdss_s3_proto" name="gdss-s3-proto" />
   <project path="hibari/lib/gdss_ubf_proto" name="gdss-ubf-proto" />
 
   <!--
       Applications - Third party
   -->
   <project path="hibari/lib/meck" name="meck" />
-  <project path="hibari/lib/mochiweb" name="mochiweb" />
+  <project path="hibari/lib/edown" name="edown" />
+  <project path="hibari/lib/asciiedoc" name="asciiedoc" />
   <project path="hibari/lib/riak_err" name="riak_err" />
 
   <!--
