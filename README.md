@@ -13,7 +13,9 @@ multiple Git repositories.
 
 # Getting Started
 
-Please read Downloading Hibari section of Hibari Application Developer Guide.
+To clone all Hibari related Git repositories using a Repo manifest,
+please read Downloading Hibari section of Hibari Application Developer
+Guide.
 
 - [English Version](http://hibari.github.com/hibari-doc/hibari-app-developer-guide.en.html#downloading-hibari)
 - [Japanese Version](http://hibari.github.com/hibari-doc/hibari-app-developer-guide.ja.html#downloading-hibari)
@@ -37,7 +39,7 @@ Please read Downloading Hibari section of Hibari Application Developer Guide.
 
 - **gdss_client**
 - **gdss_brick**
-- a few more **TODO**
+- a few more - **TODO**
 
 
 ## Hibari UBF and Thrift
@@ -66,9 +68,10 @@ Please read Downloading Hibari section of Hibari Application Developer Guide.
 - Hibari Core
 
 
-## Hibari-doc
+## Hibari Doc
 
-- **asciiedoc** (forked from norton/asciidoc)
+- **hibari-doc**
+- **asciiedoc** (forked from norton/asciiedoc)
 - **edown** (forked from esl/edown)
 
 
@@ -82,4 +85,4 @@ Please read Downloading Hibari section of Hibari Application Developer Guide.
 
 - **ubf_jsonrpc** (fork) may be deleted
 - **mochiweb** (fork)  may be deleted
-- **rebar** (fork) may be deleted
+- **rebar** (fork) may be deleted, note: there are some not-merged branches
