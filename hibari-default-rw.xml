@@ -41,7 +41,7 @@
   <!--
       Miscellaneous
   -->
-  <project path="hibari-doc" name="hibari-doc" revision="v0.1.10" />
+  <project path="hibari-doc" name="hibari-doc" />
   <project path="patches" name="patches" />
 
 </manifest>
