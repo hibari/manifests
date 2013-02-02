@@ -6,32 +6,32 @@
   <!--
       Applications - Tools
   -->
-  <project path="hibari/lib/cluster_info" name="cluster-info" revision="v0.1.1.1" />
-  <project path="hibari/lib/congestion_watcher" name="congestion-watcher" revision="v0.1.1.1" />
-  <project path="hibari/lib/gmt_util" name="gmt-util" revision="v0.1.7.1" />
-  <project path="hibari/lib/partition_detector" name="partition-detector" revision="v0.1.3.1" />
+  <project path="hibari/lib/cluster_info" name="cluster-info" />
+  <project path="hibari/lib/congestion_watcher" name="congestion-watcher" />
+  <project path="hibari/lib/gmt_util" name="gmt-util" />
+  <project path="hibari/lib/partition_detector" name="partition-detector" />
 
   <!--
       Applications - UBF
   -->
-  <project path="hibari/lib/ubf" name="ubf" revision="v1.15.11-hibari01" />
-  <project path="hibari/lib/ubf_thrift" name="ubf-thrift" revision="v0.1.6" />
+  <project path="hibari/lib/ubf" name="ubf" />
+  <project path="hibari/lib/ubf_thrift" name="ubf-thrift" />
 
   <!--
       Applications - Hibari
   -->
-  <project path="hibari/lib/gdss_brick" name="gdss-brick" revision="v0.1.6.1" />
-  <project path="hibari/lib/gdss_client" name="gdss-client" revision="v0.1.6.1"/>
-  <project path="hibari/lib/gdss_admin" name="gdss-admin" revision="v0.1.6.1"/>
-  <project path="hibari/lib/gdss_ubf_proto" name="gdss-ubf-proto" revision="v0.1.8.1" />
+  <project path="hibari/lib/gdss_brick" name="gdss-brick" />
+  <project path="hibari/lib/gdss_client" name="gdss-client" />
+  <project path="hibari/lib/gdss_admin" name="gdss-admin" />
+  <project path="hibari/lib/gdss_ubf_proto" name="gdss-ubf-proto" />
 
   <!--
       Applications - Third party
   -->
-  <project path="hibari/lib/meck" name="meck" revision="v0.7.1" />
-  <project path="hibari/lib/edown" name="edown" revision="0.2.9" />
+  <project path="hibari/lib/meck" name="meck" />
+  <project path="hibari/lib/edown" name="edown" />
   <project path="hibari/lib/asciiedoc" name="asciiedoc" />
-  <project path="hibari/lib/riak_err" name="riak_err" revision="riak_err-1.0.1-hibari01" />
+  <project path="hibari/lib/riak_err" name="riak_err" />
 
   <!--
       Releases - Hibari
