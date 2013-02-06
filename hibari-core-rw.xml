@@ -23,6 +23,7 @@
   -->
   <project path="hibari/lib/meck" name="meck" />
   <project path="hibari/lib/riak_err" name="riak_err" />
+  <project path="hibari/lib/qc" name="qc" />
 
   <!--
       Releases - Hibari

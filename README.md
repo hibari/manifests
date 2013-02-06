@@ -33,6 +33,7 @@ Guide.
 - **gmt_util**
 - **riak_err** (forked from basho/riak_err)
 - **meck** (forked from eproxus/meck)
+- **qc** (forked from norton/qc)
 
 
 ## Hibari Erlang client
