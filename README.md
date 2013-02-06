@@ -39,8 +39,12 @@ Guide.
 ## Hibari Erlang client
 
 - **gdss_client**
+- **gdss_admin**
 - **gdss_brick**
-- a few more - **TODO**
+- **cluster_info**
+- **partition_detector**
+- **gmt_util**
+- **riak_err**
 
 
 ## Hibari UBF and Thrift
