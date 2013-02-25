@@ -31,7 +31,6 @@
   <project path="hibari/lib/meck" name="meck" />
   <project path="hibari/lib/edown" name="edown" />
   <project path="hibari/lib/asciiedoc" name="asciiedoc" />
-  <project path="hibari/lib/riak_err" name="riak_err" />
   <project path="hibari/lib/qc" name="qc" />
 
   <!--
