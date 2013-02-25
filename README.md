@@ -31,20 +31,20 @@ Guide.
 - **partition_detector**
 - **congestion_watcher**
 - **gmt_util**
-- **riak_err** (forked from basho/riak_err)
 - **meck** (forked from eproxus/meck)
 - **qc** (forked from norton/qc)
+
+**Obsolete**
+
+- **riak_err** (forked from basho/riak_err, Hibari v0.1.4 -- v0.1.10)
 
 
 ## Hibari Erlang client
 
 - **gdss_client**
-- **gdss_admin**
 - **gdss_brick**
 - **cluster_info**
-- **partition_detector**
 - **gmt_util**
-- **riak_err**
 
 
 ## Hibari UBF and Thrift
