@@ -28,6 +28,7 @@
   <!--
       Applications - Third party
   -->
+  <project path="hibari/lib/lager" name="lager" />
   <project path="hibari/lib/meck" name="meck" />
   <project path="hibari/lib/edown" name="edown" />
   <project path="hibari/lib/asciiedoc" name="asciiedoc" />
