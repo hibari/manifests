@@ -31,6 +31,7 @@ Guide.
 - **partition_detector**
 - **congestion_watcher**
 - **gmt_util**
+- **lager** (forked from basho/lager)
 - **meck** (forked from eproxus/meck)
 - **qc** (forked from norton/qc)
 
@@ -45,6 +46,7 @@ Guide.
 - **gdss_brick**
 - **cluster_info**
 - **gmt_util**
+- **lager**
 
 
 ## Hibari UBF and Thrift
