@@ -21,6 +21,7 @@
   <!--
       Applications - Third party
   -->
+  <project path="hibari/lib/lager" name="lager" />
   <project path="hibari/lib/meck" name="meck" />
   <project path="hibari/lib/qc" name="qc" />
 
