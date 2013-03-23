@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <default remote="origin" revision="dev" />
+  <default remote="origin" revision="release-0.3" />
   <remote name="origin" fetch="git@github.com:hibari/" />
 
   <!--
@@ -14,8 +14,8 @@
   <!--
       Applications - UBF
   -->
-  <project path="hibari/lib/ubf" name="ubf" />
-  <project path="hibari/lib/ubf_thrift" name="ubf-thrift" />
+  <project path="hibari/lib/ubf" name="ubf" revision="dev" />
+  <project path="hibari/lib/ubf_thrift" name="ubf-thrift" revision="dev" />
 
   <!--
       Applications - Hibari
@@ -28,11 +28,11 @@
   <!--
       Applications - Third party
   -->
-  <project path="hibari/lib/lager" name="lager" />
-  <project path="hibari/lib/meck" name="meck" />
-  <project path="hibari/lib/edown" name="edown" />
-  <project path="hibari/lib/asciiedoc" name="asciiedoc" />
-  <project path="hibari/lib/qc" name="qc" />
+  <project path="hibari/lib/lager" name="lager" revision="dev" />
+  <project path="hibari/lib/meck" name="meck" revision="dev" />
+  <project path="hibari/lib/edown" name="edown" revision="dev" />
+  <project path="hibari/lib/asciiedoc" name="asciiedoc" revision="dev" />
+  <project path="hibari/lib/qc" name="qc" revision="dev" />
 
   <!--
       Releases - Hibari
@@ -42,7 +42,7 @@
   <!--
       Miscellaneous
   -->
-  <project path="hibari-doc" name="hibari-doc" />
-  <project path="patches" name="patches" />
+  <project path="hibari-doc" name="hibari-doc" revision="dev" />
+  <project path="patches" name="patches" revision="dev" />
 
 </manifest>
