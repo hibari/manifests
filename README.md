@@ -26,3 +26,8 @@ Guide.
 Please see the
 [**Library Dependencies**](https://github.com/hibari/hibari/wiki/Library-Dependencies)
 page in Hibari Wiki.
+
+
+# Manifests Format
+
+[repo Manifest Format](https://gerrit.googlesource.com/git-repo/+/master/docs/manifest-format.txt)
