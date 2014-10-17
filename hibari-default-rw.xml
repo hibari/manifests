@@ -2,6 +2,7 @@
 <manifest>
   <default remote="origin" revision="dev" />
   <remote name="origin" fetch="git@github.com:hibari/" />
+  <remote name="h2leveldb" fetch="git@github.com:h2leveldb/" />
 
   <!--
       Applications - Tools
@@ -16,6 +17,7 @@
   -->
   <project path="hibari/lib/ubf" name="ubf" />
   <project path="hibari/lib/ubf_thrift" name="ubf-thrift" />
+  <project path="hibari/lib/pmod_transform" name="pmod_transform" />
 
   <!--
       Applications - Hibari
@@ -26,10 +28,27 @@
   <project path="hibari/lib/gdss_ubf_proto" name="gdss-ubf-proto" />
 
   <!--
-      Applications - Third party
+      Applications - Third party - HyperLevelDB
+  -->
+  <project path="hibari/lib/h2leveldb" name="h2leveldb" remote="h2leveldb" />
+  <project path="hibari/lib/HyperLevelDB" name="HyperLevelDB" remote="h2leveldb" />
+  <project path="hibari/lib/snappy" name="snappy" remote="h2leveldb" />
+
+  <!--
+      Applications - Third party - Monitoring
   -->
   <project path="hibari/lib/lager" name="lager" />
+  <project path="hibari/lib/folsom" name="folsom" />
+  <project path="hibari/lib/bear" name="bear" />
+
+  <!--
+      Applications - Third party - Test
+  -->
   <project path="hibari/lib/meck" name="meck" />
+
+  <!--
+      Applications - Third party - Docs
+  -->
   <project path="hibari/lib/edown" name="edown" />
   <project path="hibari/lib/asciiedoc" name="asciiedoc" />
   <project path="hibari/lib/qc" name="qc" />
