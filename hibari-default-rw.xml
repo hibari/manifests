@@ -2,7 +2,7 @@
 <manifest>
   <default remote="origin" revision="dev" />
   <remote name="origin" fetch="git@github.com:hibari/" />
-  <remote name="h2leveldb" fetch="git@github.com:h2leveldb/" />
+  <remote name="leveldb-erlang" fetch="git@github.com:leveldb-erlang/" />
 
   <!--
       Applications - Tools
@@ -30,9 +30,9 @@
   <!--
       Applications - Third party - HyperLevelDB
   -->
-  <project path="hibari/lib/h2leveldb" name="h2leveldb" remote="h2leveldb" />
-  <project path="hibari/lib/HyperLevelDB" name="HyperLevelDB" remote="h2leveldb" />
-  <project path="hibari/lib/snappy" name="snappy" remote="h2leveldb" />
+  <project path="hibari/lib/h2leveldb" name="h2leveldb" remote="leveldb-erlang" />
+  <project path="hibari/lib/HyperLevelDB" name="HyperLevelDB" remote="leveldb-erlang" />
+  <project path="hibari/lib/snappy" name="snappy" remote="leveldb-erlang" />
 
   <!--
       Applications - Third party - Monitoring
