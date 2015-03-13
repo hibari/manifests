@@ -14,8 +14,12 @@
   <!--
       Applications - UBF
   -->
+  <!-- Disabled since Hibari v0.1.11 because UBF 1 is not compatible
+       with Erlang/OTP 17 or newer -->
+  <!--
   <project path="hibari/lib/ubf" name="ubf" />
   <project path="hibari/lib/ubf_thrift" name="ubf-thrift" />
+  -->
 
   <!--
       Applications - Hibari
@@ -23,7 +27,7 @@
   <project path="hibari/lib/gdss_brick" name="gdss-brick" />
   <project path="hibari/lib/gdss_client" name="gdss-client" />
   <project path="hibari/lib/gdss_admin" name="gdss-admin" />
-  <project path="hibari/lib/gdss_ubf_proto" name="gdss-ubf-proto" />
+  <!-- <project path="hibari/lib/gdss_ubf_proto" name="gdss-ubf-proto" /> -->
 
   <!--
       Applications - Third party
