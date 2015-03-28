@@ -14,7 +14,7 @@
   <!--
       Applications - UBF
   -->
-  <project path="hibari/lib/ubf" name="pmod_transform" />
+  <project path="hibari/lib/pmod_transform" name="pmod_transform" />
   <project path="hibari/lib/ubf" name="ubf" />
   <project path="hibari/lib/ubf_thrift" name="ubf-thrift" />
 
