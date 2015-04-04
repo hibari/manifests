@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <default remote="origin" revision="master" />
+  <default remote="origin" revision="release-0.1.11" />
   <remote name="origin" fetch="git://github.com/hibari/" />
 
   <!--
@@ -14,6 +14,7 @@
   <!--
       Applications - UBF
   -->
+  <project path="hibari/lib/pmod_transform" name="pmod_transform" />
   <project path="hibari/lib/ubf" name="ubf" />
   <project path="hibari/lib/ubf_thrift" name="ubf-thrift" />
 
@@ -26,12 +27,21 @@
   <project path="hibari/lib/gdss_ubf_proto" name="gdss-ubf-proto" />
 
   <!--
-      Applications - Third party
+      Applications - External Tools
+  -->
+  <project path="hibari/lib/lager" name="lager" />
+
+  <!--
+      Applications - External Testing
   -->
   <project path="hibari/lib/meck" name="meck" />
+  <project path="hibari/lib/qc" name="qc" />
+
+  <!--
+      Applications - External Doc
+  -->
   <project path="hibari/lib/edown" name="edown" />
   <project path="hibari/lib/asciiedoc" name="asciiedoc" />
-  <project path="hibari/lib/riak_err" name="riak_err" />
 
   <!--
       Releases - Hibari
@@ -42,6 +52,6 @@
       Miscellaneous
   -->
   <project path="hibari-doc" name="hibari-doc" />
-  <project path="patches" name="patches" />
+  <!-- <project path="patches" name="patches" /> -->
 
 </manifest>
