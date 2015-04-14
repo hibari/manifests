@@ -16,7 +16,11 @@
   -->
   <project path="hibari/lib/pmod_transform" name="pmod_transform" />
   <project path="hibari/lib/ubf" name="ubf" />
-  <project path="hibari/lib/ubf_thrift" name="ubf-thrift" />
+
+  <!--
+      Applications - Thrift
+  -->
+  <project path="hibari/lib/thrift" name="thrift-erl" />
 
   <!--
       Applications - Hibari
@@ -25,6 +29,7 @@
   <project path="hibari/lib/gdss_client" name="gdss-client" />
   <project path="hibari/lib/gdss_admin" name="gdss-admin" />
   <project path="hibari/lib/gdss_ubf_proto" name="gdss-ubf-proto" />
+  <project path="hibari/lib/gdss_thrift_proto" name="gdss-thrift-proto" />
 
   <!--
       Applications - External Tools
