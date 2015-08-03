@@ -30,9 +30,12 @@
   <!--
       Applications - Third party - HyperLevelDB
   -->
-  <project path="hibari/lib/h2leveldb" name="h2leveldb" remote="leveldb-erlang" />
-  <project path="hibari/lib/HyperLevelDB" name="HyperLevelDB" remote="leveldb-erlang" />
-  <project path="hibari/lib/snappy" name="snappy" remote="leveldb-erlang" />
+  <project path="hibari/lib/h2leveldb" name="h2leveldb"
+           remote="leveldb-erlang" revision="develop" />
+  <project path="hibari/lib/HyperLevelDB" name="HyperLevelDB"
+           remote="leveldb-erlang" revision="master" />
+  <project path="hibari/lib/snappy" name="snappy"
+           remote="leveldb-erlang" revision="master" />
 
   <!--
       Applications - Third party - Monitoring
