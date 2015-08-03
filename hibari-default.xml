@@ -36,6 +36,7 @@
            remote="leveldb-erlang" revision="master" />
   <project path="hibari/lib/snappy" name="snappy"
            remote="leveldb-erlang" revision="master" />
+  <project path="hibari/lib/sext" name="sext" />
 
   <!--
       Applications - Third party - Monitoring
