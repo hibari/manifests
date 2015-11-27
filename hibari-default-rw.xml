@@ -15,9 +15,9 @@
   <!--
       Applications - UBF
   -->
+  <project path="hibari/lib/pmod_transform" name="pmod_transform" />
   <project path="hibari/lib/ubf" name="ubf" />
   <project path="hibari/lib/ubf_thrift" name="ubf-thrift" />
-  <project path="hibari/lib/pmod_transform" name="pmod_transform" />
 
   <!--
       Applications - Hibari
@@ -42,6 +42,7 @@
       Applications - Third party - Monitoring
   -->
   <project path="hibari/lib/lager" name="lager" />
+  <project path="hibari/lib/eper" name="eper" />
   <project path="hibari/lib/folsom" name="folsom" />
   <project path="hibari/lib/bear" name="bear" />
 
@@ -55,7 +56,6 @@
   -->
   <project path="hibari/lib/edown" name="edown" />
   <project path="hibari/lib/asciiedoc" name="asciiedoc" />
-  <project path="hibari/lib/qc" name="qc" />
 
   <!--
       Releases - Hibari
