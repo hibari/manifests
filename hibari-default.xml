@@ -35,6 +35,7 @@
       Applications - External Tools
   -->
   <project path="hibari/lib/lager" name="lager" />
+  <project path="hibari/lib/eper" name="eper" />
 
   <!--
       Applications - External Testing
