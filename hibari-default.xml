@@ -50,6 +50,7 @@
       Applications - Third party - Test
   -->
   <project path="hibari/lib/meck" name="meck" />
+  <project path="hibari/lib/qc" name="qc" />
 
   <!--
       Applications - Third party - Docs
